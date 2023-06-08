@@ -9,11 +9,10 @@ void _puts_recursion(char *s)
 
 recursion_ass(s, con);
 }
-
-/*
- *recursion_ass - puts_recursion assistant
- * @s: inputing string
- * @con: index position
+/**
+*recursion_ass - created to assist _puts_recursion();
+*@s: inputing string
+*@con: index position
 */
 void recursion_ass(char *s, int con)
 {
